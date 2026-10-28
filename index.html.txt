@@ -1,0 +1,61 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary Edge Thrift | Authentic Vintage Streetwear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0b0b0b; color: #f3f4f6; }
+        .glass-card { background: rgba(24, 24, 27, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 glass-card border-b border-zinc-800">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-2xl font-extrabold tracking-wider bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent">VISIONARY EDGE</span>
+            </div>
+            <div class="text-xs bg-zinc-800 text-amber-400 px-3 py-1.5 rounded-full font-medium border border-amber-500/30">
+                ⚡ Vintage Workwear Store
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-12 px-4 text-center bg-gradient-to-b from-zinc-900 to-black border-b border-zinc-800">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-black tracking-tight mb-4">HEAVY-DUTY VINTAGE & STREETWEAR</h1>
+<p class="text-zinc-400 text-sm sm:text-base mb-6">Curated Carhartt & Dickies utility pants. Authentic fits, zero compromises.</p>
+            <div class="flex justify-center gap-4 text-xs font-semibold text-zinc-300">
+                <span class="bg-zinc-800 px-3 py-1.5 rounded-md border border-zinc-700">🔒 Prepaid Only</span>
+                <span class="bg-zinc-800 px-3 py-1.5 rounded-md border border-zinc-700">🚫 No COD / No Return</span>
+                <span class="bg-zinc-800 px-3 py-1.5 rounded-md border border-zinc-700">📦 Fast Dispatch</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Grid -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 py-8 w-full">
+        <h2 class="text-xl font-bold mb-6 tracking-wide text-zinc-200 border-l-4 border-amber-500 pl-3">AVAILABLE DROPS</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Item 1: Carhartt Navy -->
+            <div class="glass-card rounded-xl overflow-hidden shadow-lg flex flex-col justify-between">
+                <div class="p-4">
+                    <span class="text-xs font-bold text-amber-500 uppercase tracking-widest">Carhartt Drop</span>
+                    <h3 class="text-lg font-bold mt-1 text-white">Carhartt Navy Blue Utility Pant</h3>
+                    <p class="text-xs text-zinc-400 mt-1">Size: W33 x L34 | Relaxed Fit</p>
+                    <div class="mt-4 flex items-baseline gap-2">
+                        <span class="text-xl font-extrabold text-amber-400">₹1,899</span>
+                        <span class="text-xs text-zinc-500 line-through">₹2,499</span>
+                    </div>
+                </div>
+                <div class="p-4 bg-zinc-900/50 border-t border-zinc-800">
+                    <a href="https://wa.me/919664950069?text=Hi,%20I%20want%20to%20buy%20Carhartt%20Navy%20Blue%20Utility%20Pant%20(W33xL34)%20for%20₹1,899" target="_blank" class="block w-full text-center bg-amber-600 hover:bg-amber-500 text-white font-bold py-2.5 rounded-lg text-sm transition">
+                        Order via WhatsApp 💬
+                    </a>
